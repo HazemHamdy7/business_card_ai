@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment
+.env
+
+# Logs
+logs/
+*.log
+
+# Dataset
+dataset/processed/
+dataset/exports/
+
+# Models
+models/checkpoints/
+models/onnx/
+models/pretrained/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Testing
+.coverage
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db

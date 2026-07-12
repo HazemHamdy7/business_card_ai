@@ -1,0 +1,25 @@
+[project]
+name = "business-card-ai"
+version = "0.1.0"
+description = "Offline AI-powered Business Card Recognition and Classification"
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+license = { text = "MIT" }
+authors = [
+    { name = "Hazem Hamdy" }
+]
+
+dependencies = []
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.black]
+line-length = 100
+
+[tool.isort]
+profile = "black"

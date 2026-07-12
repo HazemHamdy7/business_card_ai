@@ -1,0 +1,54 @@
+# ==========================
+# Deep Learning
+# ==========================
+torch
+torchvision
+onnx
+onnxruntime
+
+# ==========================
+# Computer Vision
+# ==========================
+opencv-python
+pillow
+numpy
+scikit-image
+
+# ==========================
+# OCR
+# ==========================
+paddleocr
+paddlepaddle
+
+# ==========================
+# Machine Learning
+# ==========================
+scikit-learn
+pandas
+
+# ==========================
+# Utilities
+# ==========================
+tqdm
+pyyaml
+rich
+
+# ==========================
+# API
+# ==========================
+fastapi
+uvicorn
+
+# ==========================
+# Testing
+# ==========================
+pytest
+pytest-cov
+
+# ==========================
+# Code Quality
+# ==========================
+black
+isort
+flake8
+mypy
