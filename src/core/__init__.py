@@ -35,11 +35,16 @@ from src.core.device import DeviceInfo, get_device
 from src.core.environment import EnvironmentInfo, get_environment_info
 from src.core.exceptions import (
     BusinessCardAIError,
+    CircularDependencyError,
     ConfigurationError,
     DatasetError,
     FileError,
+    HealthCheckError,
     InferenceError,
     ModelError,
+    RegistrationError,
+    ResourceExhaustedError,
+    ServiceNotFoundError,
     ValidationError,
 )
 from src.core.logger import get_logger, setup_logger
@@ -49,6 +54,7 @@ from src.core.version import get_description, get_full_version, get_version
 
 __all__ = [
     "BusinessCardAIError",
+    "CircularDependencyError",
     "Config",
     "ConfigurationError",
     "ConfigurationManager",
@@ -60,10 +66,14 @@ __all__ = [
     "EnvironmentInfo",
     "EnvironmentLoader",
     "FileError",
+    "HealthCheckError",
     "InferenceError",
     "JsonConfigurationSource",
     "ModelError",
     "Paths",
+    "RegistrationError",
+    "ResourceExhaustedError",
+    "ServiceNotFoundError",
     "Timer",
     "ValidationError",
     "YamlConfigurationSource",

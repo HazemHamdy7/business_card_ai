@@ -24,3 +24,23 @@ class InferenceError(BusinessCardAIError):
 
 class DatasetError(BusinessCardAIError):
     """Raised when dataset operations fail."""
+
+
+class CircularDependencyError(BusinessCardAIError):
+    """Raised when a circular dependency is detected."""
+
+
+class ServiceNotFoundError(BusinessCardAIError):
+    """Raised when a service is not found in the registry."""
+
+
+class RegistrationError(BusinessCardAIError):
+    """Raised when service registration fails."""
+
+
+class HealthCheckError(BusinessCardAIError):
+    """Raised when a health check fails."""
+
+
+class ResourceExhaustedError(BusinessCardAIError):
+    """Raised when a resource is exhausted."""
