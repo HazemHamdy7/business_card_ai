@@ -6,6 +6,10 @@ class ConfigurationError(BusinessCardAIError):
     """Raised when configuration loading or validation fails."""
 
 
+class ValidationError(ConfigurationError):
+    """Raised when configuration validation fails."""
+
+
 class FileError(BusinessCardAIError):
     """Raised when file operations fail."""
 

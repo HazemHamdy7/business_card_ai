@@ -13,6 +13,11 @@ DEFAULT_DOCS_DIR: Final[str] = "docs"
 DEFAULT_CONFIG_FILE: Final[str] = "config.yaml"
 DEFAULT_ENV_FILE: Final[str] = ".env"
 
+CONFIG_DEVELOPMENT: Final[str] = "development.yaml"
+CONFIG_PRODUCTION: Final[str] = "production.yaml"
+CONFIG_TRAINING: Final[str] = "training.yaml"
+CONFIG_INFERENCE: Final[str] = "inference.yaml"
+
 LOG_FORMAT: Final[str] = "%(asctime)s | %(levelname)-8s | %(name)s | %(message)s"
 LOG_DATE_FORMAT: Final[str] = "%Y-%m-%d %H:%M:%S"
 LOG_MAX_BYTES: Final[int] = 10 * 1024 * 1024
