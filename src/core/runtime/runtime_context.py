@@ -3,10 +3,9 @@ from pathlib import Path
 from typing import Any
 
 from src.core.config import ConfigurationManager
-from src.core.constants import PROJECT_NAME, PROJECT_VERSION
 from src.core.device import DeviceInfo, get_device
 from src.core.environment import EnvironmentInfo
-from src.core.io.cache_manager import CacheManager, CachePolicy
+from src.core.io.cache_manager import CacheManager
 from src.core.logger import get_logger, setup_logger
 from src.core.paths import Paths
 from src.core.version import get_full_version, get_version

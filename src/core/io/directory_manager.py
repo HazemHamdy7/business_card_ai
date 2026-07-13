@@ -1,7 +1,5 @@
 import shutil
-import tempfile
 from pathlib import Path
-from typing import Generator
 
 from src.core.exceptions import FileError
 

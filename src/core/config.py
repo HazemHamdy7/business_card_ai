@@ -8,7 +8,7 @@ from typing import Any
 import yaml
 
 from src.core.constants import CONFIG_DEVELOPMENT, CONFIG_INFERENCE, CONFIG_PRODUCTION, CONFIG_TRAINING
-from src.core.exceptions import ConfigurationError, FileError, ValidationError
+from src.core.exceptions import ConfigurationError, ValidationError
 from src.core.paths import Paths
 
 

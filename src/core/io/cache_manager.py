@@ -1,12 +1,9 @@
-import json
 import pickle
 import threading
 import time
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any, Generic, TypeVar
-
-from src.core.exceptions import FileError
 
 T = TypeVar("T")
 

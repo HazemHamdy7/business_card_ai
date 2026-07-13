@@ -1,5 +1,4 @@
 import threading
-from typing import Any
 
 from src.core.exceptions import ServiceNotFoundError
 
