@@ -11,6 +11,10 @@ from .callbacks import Callback, CallbackHandler, CallbackEvent
 from .model_registry import ModelRegistry, ModelEntry
 from .trainer import Trainer
 from .training_session import TrainingSession
+from .yolo_config import YOLOModelConfig, YOLONMSConfig, YOLOAugmentationConfig, YOLOFreezeConfig
+from .yolo_model import YOLOModel, YOLOModelInfo
+from .yolo_data_pipeline import YOLODataPipeline, YOLOBatchStats
+from .yolo_trainer import YOLOTrainer
 
 __all__ = [
     "TrainingConfig",
@@ -31,4 +35,13 @@ __all__ = [
     "ModelEntry",
     "Trainer",
     "TrainingSession",
+    "YOLOModelConfig",
+    "YOLONMSConfig",
+    "YOLOAugmentationConfig",
+    "YOLOFreezeConfig",
+    "YOLOModel",
+    "YOLOModelInfo",
+    "YOLODataPipeline",
+    "YOLOBatchStats",
+    "YOLOTrainer",
 ]
