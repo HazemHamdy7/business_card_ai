@@ -29,7 +29,9 @@ async def lifespan(app: FastAPI) -> AsyncGenerator[None, None]:
     logger.info("API shutting down")
 
 
-def create_app(config: APIConfig) -> FastAPI:
+def create_app(config: APIConfig | None = None) -> FastAPI:
+    if config is None:
+        config = APIConfig()
     app = FastAPI(
         title=TITLE,
         description=DESCRIPTION,

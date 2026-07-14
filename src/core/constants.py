@@ -1,0 +1,27 @@
+from __future__ import annotations
+
+PROJECT_NAME = "Business Card AI"
+PROJECT_VERSION = "0.1.0"
+PROJECT_DESCRIPTION = "Offline AI-powered Business Card Recognition and Classification"
+
+DEFAULT_SEED = 42
+DEFAULT_BATCH_SIZE = 16
+DEFAULT_EPOCHS = 100
+DEFAULT_LEARNING_RATE = 0.001
+DEFAULT_WORKERS = 2
+DEFAULT_CHECKPOINT_INTERVAL = 10
+DEFAULT_LOG_INTERVAL = 10
+DEFAULT_WARMUP_EPOCHS = 3
+DEFAULT_PATIENCE = 10
+DEFAULT_GRADIENT_ACCUMULATION = 1
+DEFAULT_MIXED_PRECISION = False
+DEFAULT_PIN_MEMORY = True
+DEFAULT_IMAGE_SIZE = 640
+
+RESERVED_CLASS_IDS = frozenset(range(5, 1000))
+NUM_CLASSES = 1
+CLASS_NAMES = {0: "business_card"}
+
+SUPPORTED_IMG_FORMATS = frozenset({".jpg", ".jpeg", ".png", ".bmp", ".tiff", ".tif", ".webp"})
+YOLO_LABEL_EXT = ".txt"
+COCO_JSON = "coco.json"
